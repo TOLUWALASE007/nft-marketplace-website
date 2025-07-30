@@ -17,10 +17,6 @@ A modern, responsive NFT marketplace built with React, featuring beautiful anima
 - 🎨 **Smooth Animations** - Powered by Framer Motion
 - 🌈 **Gradient Design** - Modern UI with beautiful color schemes
 
-## 🚀 Live Demo
-
-[View Live Demo](#) *(Coming Soon)*
-
 ## 🛠️ Tech Stack
 
 - **Frontend Framework:** React 18
@@ -29,6 +25,10 @@ A modern, responsive NFT marketplace built with React, featuring beautiful anima
 - **Icons:** Lucide React
 - **Build Tool:** Create React App
 - **Package Manager:** npm
+
+## 🚀 Live Demo
+
+[View Live Demo](https://toluwalase007.github.io/nft-marketplace-website) ✨ **Now Live!**
 
 ## 📦 Installation
 
