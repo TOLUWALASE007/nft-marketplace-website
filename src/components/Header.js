@@ -22,7 +22,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen, scrolled }) => {
             whileHover={{ scale: 1.05 }}
           >
             <img
-              src="/img/favicon.png"
+                              src={process.env.PUBLIC_URL + "/img/favicon.png"}
               alt="Logo"
               className="w-10 h-10 lg:w-12 lg:h-12 object-contain rounded-full shadow-md"
               style={{ background: 'rgba(0,0,0,0.7)' }}

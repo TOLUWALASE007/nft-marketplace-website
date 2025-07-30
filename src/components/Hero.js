@@ -77,7 +77,7 @@ const Hero = () => {
             >
               {/* Main Orbe Image */}
               <img
-                src="/img/orbe-img.png"
+                src={process.env.PUBLIC_URL + "/img/orbe-img.png"}
                 alt="NFT Orbe"
                 className="w-full h-full object-contain"
               />
@@ -97,7 +97,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/img/ethereum-img.png"
+                  src={process.env.PUBLIC_URL + "/img/ethereum-img.png"}
                   alt="Ethereum"
                   className="w-1/2 h-1/2 object-contain opacity-90 drop-shadow-2xl"
                   style={{ marginTop: '-15.5rem' }}
@@ -118,7 +118,7 @@ const Hero = () => {
               }}
             >
               <img
-                src="/img/shape-bg.png"
+                src={process.env.PUBLIC_URL + "/img/shape-bg.png"}
                 alt="Background Shape"
                 className="w-full h-full object-contain"
               />

@@ -40,7 +40,7 @@ const Footer = () => (
       {/* Logo and copyright */}
       <div className="flex flex-col items-start md:w-1/4">
         <div className="flex items-center mb-6">
-          <img src="/img/favicon.png" alt="Logo" className="w-12 h-12 rounded-full mr-3 bg-nft-card" />
+                          <img src={process.env.PUBLIC_URL + "/img/favicon.png"} alt="Logo" className="w-12 h-12 rounded-full mr-3 bg-nft-card" />
           <span className="text-2xl font-bold text-white font-oxanium tracking-wide">NFT</span>
         </div>
         <span className="text-xs text-gray-500 mt-4">© 2025 NFT.com. All rights reserved</span>
